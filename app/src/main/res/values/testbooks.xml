@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="books">
+        <item>070.4 김사승ㄷ</item>
+        <item>070.4 뉴스수</item>
+        <item>070.4 송상근ㄴ</item>
+        <item>070.4 최홍재ㅋ</item>
+        <item>070.4 S834bㄱ</item>
+        <item>070.41 민병덕ㅍ</item>
+        <item>070.43 고영신ㄷ</item>
+        <item>070.43 김한길ㅊ</item>
+        <item>070.43 박석흥ㅅ</item>
+        <item>070.43 신창섭ㅌ</item>
+        <item>070.43 윤재홍ㅂ2</item>
+        <item>070.43 이원섭ㅇ</item>
+        <item>070.43 현영준ㅂ</item>
+        <item>070.43 현영준ㅂ</item>
+        <item>070.435 S561nㄴ</item>
+        <item>070.44 한국신ㅁ</item>
+        <item>070.44932 해외문ㅎ</item>
+        <item>070.4493616 G471wㅇ</item>
+        <item>070.49 연합뉴유</item>
+        <item>070.5 강주헌ㄱ</item>
+        <item>070.5 신종락ㅎ</item>
+        <item>070.5 이종국ㅊ</item>
+        <item>070.5092 박계화ㅁ</item>
+        <item>070.50951 부길만하</item>
+        <item>070.50952 정상진ㅈㅇ</item>
+        <item>070.5797 류영호ㅅ</item>
+        <item>070.92 김상균ㄴ</item>
+        <item>070.92 송건호ㄱ</item>
+        <item>070.92 심양섭ㅇ</item>
+        <item>070.92 홍진기ㄱ</item>
+        <item>070.92 R324rㅈ</item>
+        <item>070.951 한겨레ㅎ20</item>
+        <item>071.1 뉴스생</item>
+        <item>071.1 세계일ㅅ</item>
+        <item>071.1 이연ㅇ</item>
+        <item>071.1 지역미</item>
+        <item>071.1 한국언ㄹ</item>
+        <item>071.2 차배근중</item>
+        <item>079.51 한국언ㄹ2</item>
+
+    </string-array>
+
+</resources>
