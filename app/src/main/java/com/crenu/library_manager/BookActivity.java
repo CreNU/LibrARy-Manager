@@ -36,7 +36,19 @@ public class BookActivity extends AppCompatActivity {
                 codeScanner.initiateScan();
             }
         });
+
+
+
     }
+
+    public void OnBalcode(){
+        IntentIntegrator codeScanner = new IntentIntegrator(BookActivity.this);
+        codeScanner.setOrientationLocked(false);
+        codeScanner.setPrompt("책 바코드를 인식해 주세요.");
+        codeScanner.initiateScan();
+    }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

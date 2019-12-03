@@ -21,12 +21,14 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
 
+
+
         Button button1 = (Button) findViewById(R.id.button3) ;
         button1.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
+                startActivity(new Intent(getApplication(), BookActivity .class));
                 IntentIntegrator codeScanner = new IntentIntegrator(MainActivity.this);
-                codeScanner.setBeepEnabled(false);
                 codeScanner.setOrientationLocked(false);
                 codeScanner.setPrompt("책 바코드를 인식해 주세요.");
                 codeScanner.initiateScan();
@@ -40,17 +42,5 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplication(), BookActivity .class));
             }
         });
-
-
-
-
-
-
-
-
-
-
     }
-
-
 }
